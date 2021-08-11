@@ -13,3 +13,13 @@ After I had the meeting we always had, I took notes of the tasks I would do duri
 I continued to follow the Linux course. I freed up space on my computer to use Ubuntu more comfortably. This process took quite a long time. As a result, I opened the area I wanted. I couldn't make the Ubuntu I installed full screen. I did some research but couldn't solve this problem. I tried to install RabbitMQ on the small screen, but I could not access the RabbitMQ Management page. I was sure that my ip address was correct, but it didn't work.
 ## 8 August 2021 
 I tried installing RabbitMQ on Ubuntu. I followed the steps from the internet. I managed to open the RabbitMQ Management page in the browser, although I got minor errors. It did not accept username and password information. Later, while reinstalling ubuntu, I encountered a completely different error. I started all over again by deleting that ubuntu. I reinstalled ubuntu. This time I fixed the full screen issue that I couldn't do before.
+
+--------------
+## 9 August 2021
+We had our meeting today. In this meeting, we briefly evaluated the last week. We talked about what to do this week. I will install the technologies I will use until Friday on the computer. I will edit the Github account. I will explain the technologies I use step by step. While doing research, I need to do more detailed research. At the meeting we held in the afternoon, I understood better how to write the document. I don't need to write what's on the internet. I had to write down the errors I encountered.
+## 10 August 2021 
+I installed Ubuntu 18.04 Server on my computer. I wrote Apache Kafka, Apache Nifi and Rabbit MQ comparison on Github account. I've made quite a bit of progress in the Linux course. I participated in the 5 question challenge. I researched how Apache Kafka, Apache Nifi and RabbitMQ technologies do the listening process. I posted my research results on my Github account.
+
+
+
+
