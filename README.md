@@ -24,6 +24,7 @@ I edit the Github account every day. I take my daily notes. I did research on th
 ## 12 August 2021
 After a long effort, I solved the error I got while installing Rabbitmq. I reinstalled it from Rabbitmq's web page. I did dataset research for my project. Then I researched downloading files on the server. According to the result I found, I downloaded the dataset to Ubuntu Server. I did research about cron job.
 ## 13 August 2021
+It gave "package installation" error while downloading pyhton3 on Ubuntu 18.04 Server. I added 'sudo add-apt-repository universe multiverse' command to solve this error. Then I tried to download java but that also gave "package installation" error. This time I added the 'sudo add-apt-repository main' command. After doing this, the installation was done.
 
 
 
