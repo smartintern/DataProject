@@ -21,6 +21,9 @@ We had our meeting today. In this meeting, we briefly evaluated the last week. W
 I installed Ubuntu 18.04 Server on my computer. I wrote Apache Kafka, Apache Nifi and Rabbit MQ comparison on Github account. I've made quite a bit of progress in the Linux course. I participated in the 5 question challenge. I researched how Apache Kafka, Apache Nifi and RabbitMQ technologies do the listening process. I posted my research results on my Github account.
 ## 11 August 2021 
 I edit the Github account every day. I take my daily notes. I did research on the project. I can hardly find the results I want. We held our meeting and created a task list. According to the task list, I first uninstalled Ubuntu Desktop and installed Ubuntu 18.04 Server Side instead. Using Ubuntu Server was a bit more difficult for me. I need to improve myself on this. I tried to install RabbitMQ on Ubuntu Server Side, but without success. I was constantly getting the error message. I searched on the internet but couldn't find it. So I put it aside for now and moved on to the Linux course. I came from the 25th part to the 61st part in the Linux course. I did not fully understand some things in the course. I think I will understand better as I use it.
+## 12 August 2021
+After a long effort, I solved the error I got while installing Rabbitmq. I reinstalled it from Rabbitmq's web page. I did dataset research for my project. Then I researched downloading files on the server. According to the result I found, I downloaded the dataset to Ubuntu Server. I did research about cron job.
+## 13 August 2021
 
 
 
