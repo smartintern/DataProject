@@ -25,6 +25,7 @@ I edit the Github account every day. I take my daily notes. I did research on th
 After a long effort, I solved the error I got while installing Rabbitmq. I reinstalled it from Rabbitmq's web page. I did dataset research for my project. Then I researched downloading files on the server. According to the result I found, I downloaded the dataset to Ubuntu Server. I did research about cron job.
 ## 13 August 2021
 It gave "package installation" error while downloading pyhton3 on Ubuntu 18.04 Server. I added 'sudo add-apt-repository universe multiverse' command to solve this error. Then I tried to download java but that also gave "package installation" error. This time I added the 'sudo add-apt-repository main' command. After doing this, the installation was done.
-
+## 14 August 2021
+I continue my research on cron job. I got an error while installing python pica on Ubuntu 18.04 Server Side. I got " cannot import name "sysconfig"" error. I ran sudo apt install python3.6-distutils to resolve this error. Thus, python pica was installed. I got an error while running rabbitmq. Unable to fix the error, I uninstalled and reinstalled Rabbitmq. This time it worked. I wrote and ran the `send.py` and `receive.py` files for Rabbitmq. I then created the `new_task.py` and `worker.py` files. I needed more screens to run this. In the meantime, the computer shut down and rabbitmq also stopped. When I reopened it, Rabbitmq didn't work. I did a lot of research on the internet and couldn't find any results. I made changes to the rabbitmq.conf file. I deleted these changes and restarted rabbitmq. This time it worked. I understood the reason for the error. It was giving an error when I made changes to the rabbitmq.conf file.
 
 
