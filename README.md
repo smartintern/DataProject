@@ -31,3 +31,5 @@ I continue my research on cron job. I got an error while installing python pica 
 Today I searched for the function that reads all the images in the file. I was able to read all the images in the file with the os.listdir() method. I tried the examples found on Rabbitmq Tutorials. The second step of the tutorial needed to open a new window in Ubuntu 18.04 Server Side. I did research on this but couldn't find anything. I have written my code for now and it remains to test. I uploaded all the codes I wrote to my Github account.
 ## 16 August 2021
 Today I did a dataset search with a model. I found the KolektorSDD2 dataset. Then I found the pattern of this dataset.
+## 17 August 2021
+I need to check if the model I found works. I looked at what is required to run the model. I researched if these required technologies are available in Ubuntu 18.04 Server Side. All available. These technologies are Pytorch and Cuda.
