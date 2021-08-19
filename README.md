@@ -33,3 +33,7 @@ Today I searched for the function that reads all the images in the file. I was a
 Today I did a dataset search with a model. I found the KolektorSDD2 dataset. Then I found the pattern of this dataset.
 ## 17 August 2021
 I need to check if the model I found works. I looked at what is required to run the model. I researched if these required technologies are available in Ubuntu 18.04 Server Side. All available. These technologies are Pytorch and Cuda.
+## 18 August 2021
+I searched for the cron job code that sends the photos in the file to the port. I read all the pictures in the file and keep them in a list, but I get an error when sending them to the port. I continue to research.
+## 19 August 2021
+I can't progress my project. I keep getting errors and things to do are piling up. I look for errors on the internet, but the errors do not go away. When correcting one place, another error occurs. Today I tried to stop Pytorch, Cuda and Anaconda on Ubuntu 18.04 Server Side but without success.
