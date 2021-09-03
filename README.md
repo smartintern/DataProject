@@ -29,6 +29,8 @@ It gave "package installation" error while downloading pyhton3 on Ubuntu 18.04 S
 I continue my research on cron job. I got an error while installing python pica on Ubuntu 18.04 Server Side. I got " cannot import name "sysconfig"" error. I ran sudo apt install python3.6-distutils to resolve this error. Thus, python pica was installed. I got an error while running rabbitmq. Unable to fix the error, I uninstalled and reinstalled Rabbitmq. This time it worked. I wrote and ran the `send.py` and `receive.py` files for Rabbitmq. I then created the `new_task.py` and `worker.py` files. I needed more screens to run this. In the meantime, the computer shut down and rabbitmq also stopped. When I reopened it, Rabbitmq didn't work. I did a lot of research on the internet and couldn't find any results. I made changes to the rabbitmq.conf file. I deleted these changes and restarted rabbitmq. This time it worked. I understood the reason for the error. It was giving an error when I made changes to the rabbitmq.conf file.
 ## 15 August 2021
 Today I searched for the function that reads all the images in the file. I was able to read all the images in the file with the os.listdir() method. I tried the examples found on Rabbitmq Tutorials. The second step of the tutorial needed to open a new window in Ubuntu 18.04 Server Side. I did research on this but couldn't find anything. I have written my code for now and it remains to test. I uploaded all the codes I wrote to my Github account.
+
+--------------
 ## 16 August 2021
 Today I did a dataset search with a model. I found the KolektorSDD2 dataset. Then I found the pattern of this dataset.
 ## 17 August 2021
@@ -40,7 +42,35 @@ I can't progress my project. I keep getting errors and things to do are piling u
 ## 20 August 2021
 Since I couldn't run the model of the dataset I found today, we changed the project a bit. We found the new dataset and model. Tensorflow was needed to run this model. I tried to install it on Windows but I couldn't. With the help of my mentor, we were able to install Tensorflow on Ubuntu 18.04 Server Side. We got constant errors while installing. We did a lot of work before installing Tensorflow. Then I asked myself why it was so hard to set it up. I will research about it. I will also share with you how I set it up. I wrote the model of Cifar-10 dataset in windows environment. I also added Rabbitmq Consumer and Prodecur codes into the model I wrote. I searched for methods to import this file into Ubuntu 18.04 Server Side. I couldn't do it with virtualbox shared folders. Then we could not find Desktop on Ubuntu 18.04 server. Finally, we tried with USB. We could not see the contents of the USB on the Server Side. Again, we tried different solutions for this, but file transfer with USB failed.
 
-Tensorflow installation: https://emineozturkk.medium.com/ubuntu-18-04-server-side-tensorflow-kurulumu-7d5bf5a50958
+Tensorflow installation: https://emineozturkk.medium.com/ubuntu-18-04-install-tensorflow-dfcc3f904b81
 
 ## 21 August 2021
 I could not transfer the python code I wrote with USB to Ubuntu 18.04 Server Side. As a last resort, I wrote the code myself in the terminal one by one. I had some errors when I ran the code after writing it. I often had typos. The last code I wrote worked, but it didn't give the output I wanted.
+## 22 August 2021
+Today I found the cause of the error. I forgot to start Rabbitmq before running the code. I ran Rabbitmq first. Then I ran the code and got the same error again. I started doing research. My understanding is that cifar10 cannot find the dataset.
+
+--------------
+## 23 August 2021
+I'm sick. That's why I couldn't look at the project.
+## 24 August 2021
+I tried to install MongoDB but failed. For some reason, I have errors in the installation stages. Although I did as shown in the web resource, a successful installation does not occur.
+## 25 August 2021
+I started editing the python code where the model is located. But the 'import tflearn' code returned ModuleNotFoundError. I did quite a bit of research to figure this out and tried what is shown. The result is still unsuccessful. Later, when I talked to my mentor, we found out what caused the problem. Ubuntu Server Side was not connecting to the internet. That's why it was giving an error. We immediately did research to resolve this issue. We tried a few things but it didn't work.
+## 26 August 2021
+Today I checked again if Ubuntu Server Side connects to the internet. It still wouldn't connect. I continued my research. I made changes to some files but it still won't connect. So I deleted Ubuntu 18.04 Server Side and started installing Ubuntu 18.04 Desktop instead. I was able to successfully install it.
+## 27 August 2021
+I installed Rabbitmq on Ubuntu 18.04 Desktop, which I had installed. I used it more comfortably because it is desktop. I was not able to copy paste in Ubuntu Server Side. I was writing everything by hand and it was extra difficult. Now Ubuntu Desktop is much more comfortable to use. After completing the rabbitmq installation, I installed python and tensorflow with venv. I didn't get an error while installing Tensorflow. I have successfully completed the installation.
+## 28 August 2021
+After installing Tensorflow, the necessary setups to run the model have been completed. I immediately created a model.py file in venv. I wrote the model for the Cifar10 dataset. Then I tried to run the model, but some libraries were not imported. I added these missing libraries to venv with the help of pip3.
+## 29 August 2021 
+I was able to run the model for the cifar10 dataset without rabbitmq. The model runs at 50 iterations. It took quite a while as there were 50,000 images. It worked successfully. While the model was working, I started the presentation that was necessary for the presentation and describing my project. In the presentation, I will touch on every detail of the project.
+
+--------------
+## 30 August 2021
+After I finished running the model, I started researching how to save this model. I found several resources on this. In this way, I understood my dataset and model in more detail. I understood everything a little more.
+## 31 August 2021
+I made adjustments to the model. I printed the accuracy rate of the model on the screen. My model gave an accuracy rate of 88 percent in 50 iterations. I started researching to save the model. I tried what I found but I couldn't save the model with .h5 extension.
+## 1 September 2021 
+I continued the research to save the model. I tried the sample codes I found, but it still didn't work as I wanted. When I type model.save(...), .index, .meta and .data files are created. I could not continue after that and create the .h5 file.
+## 2 September 2021
+Today I prepared the project presentation. I created the Project user Manual file. I edited the Github account.
